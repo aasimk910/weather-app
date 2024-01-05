@@ -1,0 +1,73 @@
+<!-- 
+Student Name: Aasim Khan
+Student ID: 2407702 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aasim_khan_2407702.css">
+</head>
+
+<body>
+    <!-- card section for area where all weather details are availabe -->
+    <div class="card">
+        <!-- for time and date -->
+        <div class="date-time"></div>
+        <!-- to enter cities names  -->
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/search.png"></button>
+        </div>
+        <!-- for adding weather details -->
+        <div class="weather">
+            <img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/rain.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <p class="desc"></p>
+            <div class="city-country">
+                <h2 class="city"></h2>
+                <h2 id="country"></h2>
+            </div>
+            <div class="details">
+                <div class="col">
+                    <img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/pressure.png">
+                    <div>
+                        <p class="pressure"></p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer and copyright section  -->
+        <footer class="footer">
+            <div>
+                <p>Copyright © 2023 Aasim Khan 2407702. All rights reserved.</p>
+            </div>
+        </footer>
+        <div class="errorsection">Opps! Data not found. <button class="close">close</button>
+        </div>
+    </div>
+    
+    <script src="aasim_khan_2407702.js"></script>
+</body>
+
+</html>
