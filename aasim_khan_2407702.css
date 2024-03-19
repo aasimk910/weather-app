@@ -1,7 +1,7 @@
 /**
 * Student Name: Aasim Khan
 * Student ID: 2407702
-*/hello
+*/
 
 *{
     margin: 0;
@@ -12,7 +12,7 @@
 body{
     background:url(https://raw.githubusercontent.com/aasimk910/weather-icon/main/glasgow.jpg);
     
-    height: 100vh;
+    height: 80vh;
 }
 .card{
     width: 90%;
@@ -153,3 +153,70 @@ body{
 .close:active{
     opacity: 0.3;
 }
+
+
+
+
+.viewpastdata {
+    display: none;
+    width: 90%;
+    max-width: 1200px;
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(9px);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.pasthistory {
+    margin-top: 20px;
+}
+
+.weather-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.weather-item {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin:0px 5px 0px ;
+}
+
+.weather-date,
+.weather-condition,
+.weather-temperature,
+.weather-humidity {
+    margin-bottom: 5px;
+}
+
+.closepast {
+    padding: 12px 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.closepast:hover {
+    opacity: 0.7;
+}
+
+.closepast:active {
+    opacity: 0.3;
+}
+
+/* Database connection parameters
+$db_host = "sql201.infinityfree.com";
+$db_name = "if0_35932667_weather";
+$db_user = "if0_35932667";
+$db_password = "Ws6r4joImuQGY"; */

@@ -21,8 +21,9 @@ Student ID: 2407702
         <div class="date-time"></div>
         <!-- to enter cities names  -->
         <div class="search">
-            <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button><img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/search.png"></button>
+            <input id="input" name="q" type="text" placeholder="Enter city name" spellcheck="false">
+            <button type="submit"><img src="https://raw.githubusercontent.com/aasimk910/weather-icon/main/search.png"></button>
+            <button class="past" ondblclick="insertdata(input.value)" onclick="pastData(input.value)" type="submit">Past Data</button>
         </div>
         <!-- for adding weather details -->
         <div class="weather">
@@ -66,7 +67,14 @@ Student ID: 2407702
         <div class="errorsection">Opps! Data not found. <button class="close">close</button>
         </div>
     </div>
-    
+    <div class="viewpastdata">
+        <h2>View past data</h2>
+        <div class="pasthistory">
+            <ul class="weather-list"></ul>
+        </div>
+        <button class="closepast">close</button>
+    </div>
+
     <script src="aasim_khan_2407702.js"></script>
 </body>
 
